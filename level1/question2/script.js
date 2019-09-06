@@ -8,9 +8,13 @@ fetch(url).then(function(response) {
         for (var i = 0; i < data.length; i++) {
             var todoItem = data[i];
 
-            var titleNode = document.createElement('p');
-            titleNode.innerHTML = todoItem.title;
-            document.getElementById('todos').appendChild(titleNode);
+            console.log(data);
+
+            document.getElementById('todos').innerHTML += '<div id="todos"><div class="todo-item"><p>Todo title</p></div></div>';
+            document.getElementById('todos').innerHTML += "<span>UserId: " + todoItem.userId + "</span>";
+            document.getElementById('todos').innerHTML += "<span>Id:   " + todoItem.id + "CM</span>";
+            document.getElementById('todos').innerHTML += "<span>Title: " + todoItem.title + "KG</span>";
+            document.getElementById('todos').innerHTML += "<span>Completed:   " + todoItem.completed + "</span>";
         }
 
     })
