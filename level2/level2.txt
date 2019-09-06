@@ -1,0 +1,46 @@
+//Level 2 Process
+
+1. What is the DOM?
+// DOM stands for document object module.
+// DOM is a platform as well as a language-neutral interface
+// that allows/ helps programs and scripts to access and update
+// content, structure and style in a document.
+
+2. List three methods to manipulate the DOM.
+// 1. createElement();
+// 2. createTextNode();
+// 3. querySelectorAll();
+
+3. What is an asynchronous call?
+// A asynchronous call is when some code is taking some time to finish (like accessing an API or
+// reading content from the local file system) is being executed in the background
+// and in parallel the code execution is continued. 
+// This behaviour is being described by term asynchronous programming.
+
+4. Briefly explain what the sources tab in Chromes Developers Tools does.
+// you can use the sources tab in Chromes developer tools in several ways:
+// you can for example; view files, edit CSS and JavaScript and debug JavaScript.
+
+5. What is a JavaScript promise?
+// the promise object in JS is used 
+// to handle asynchronous operations in JavaScript.
+// Promise in JS can also provide better error handeling than
+// callbacks and events.
+
+6. What is an API?
+// API stands for Application Program Interface.
+// An API allows software to communicatre with another software.
+
+7. What is a JavaScript Event?
+// is handeling the interaction between a JS file and an HTML 
+// document.
+// In other words: Javascript has events to 
+// provide a dynamic interface to a webpage. 
+// 'onclick' is one example of a JS event.
+
+8. What is event bubbling?
+// When an event happens on an element, it first runs the 
+// handlers on it, then on its parent, 
+// then all the way up on other ancestors.
+// In JS events “bubble” from the inner 
+// element up through parents like a bubble in the water.
