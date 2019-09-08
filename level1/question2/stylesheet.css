@@ -1,24 +1,32 @@
-            p {
-                color: black;
-                font: 200;
-                font-family: 'Courier New', Courier, monospace;
-            }
-            
-            .todo-item {
-                background: white;
-                height: 100px;
-                width: 400px;
-                border-radius: 10px;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            }
-            
-            .todo-item p {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            
-            span {
-                display: block;
-                margin-bottom: 10px
-            }
+.todo-item {
+    background: rgba(255, 255, 255, 0.715);
+    height: 220px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.todo-item p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font: 200;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#todos {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 20px 20px;
+    justify-content: space-around;
+}
+
+.completed {
+    background: rgb(5, 96, 56);
+}
+
+.completed p {
+    color: #ffffff;
+}

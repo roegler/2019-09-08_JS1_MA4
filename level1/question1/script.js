@@ -1,7 +1,7 @@
 var myButton = document.getElementById('myButton');
 
 myButton.addEventListener('click', function(event) {
-    alert('hello world!')
+    alert('Success!')
     event.stopPropagation();
     console.log(event);
 });
